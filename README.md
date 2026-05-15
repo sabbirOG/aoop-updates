@@ -11,6 +11,6 @@ mvn -DskipTests=false clean test
 mvn spring-boot:run
 ```
 
-ER diagram (add image `images/erd.png`):
+ER diagram:
 
-![ER diagram](images/erd.png)
+![ER diagram](images/readme.jpg)
