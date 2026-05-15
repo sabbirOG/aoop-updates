@@ -1,19 +1,16 @@
-Classroom-style Spring Boot project
+AOOP — Assignment 1
 
-This submission follows the classroom requirements:
+Description:
 
-- Manual getters/setters (no Lombok)
-- `Long` primary keys with `@GeneratedValue(strategy = GenerationType.IDENTITY)`
-- H2 in-memory datasource (see `src/main/resources/application.properties`)
-- Spring Data JPA repositories under `com.cse.project.repository`
+This repository contains the source code for Assignment 1 of the Advanced Object-Oriented Programming (AOOP) course. The implementation uses Spring Boot with Spring Data JPA and an H2 in-memory database. Entity classes use explicit getters and setters (Lombok is not used).
 
-Build & run (Windows PowerShell):
+Build and run (Maven):
 
-```powershell
-$env:JAVA_HOME="C:\Users\User\.jdk\jdk-25"
-$env:PATH="$env:JAVA_HOME\bin;$env:PATH"
-& 'C:\Users\User\.maven\maven-3.9.15\bin\mvn.cmd' -DskipTests=false clean test
-& 'C:\Users\User\.maven\maven-3.9.15\bin\mvn.cmd' spring-boot:run
+```bash
+mvn -DskipTests=false clean test
+mvn spring-boot:run
 ```
 
-Files included in the ZIP: `pom.xml`, `src/main/java/com/cse/project/**`, `src/main/resources/application.properties`, `README.md`.
+ER diagram (add image `images/erd.png`):
+
+![ER diagram](images/erd.png)
