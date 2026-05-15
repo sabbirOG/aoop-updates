@@ -1,3 +1,3 @@
-AOOP — Assignment 1
+AOOP — Update 1
 
 ![ER diagram](images/readme.jpg)
